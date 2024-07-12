@@ -1,0 +1,23 @@
+Trong y sinh học, bề dày lớp nội trung mạc (NTM) phản ánh một số bệnh lý
+của cơ thể. Thực tế hiện tượng dày lớp NTM động mạch cảnh do nhiều yếu tố như di truyền, chủng
+tộc, mắc bệnh tim mạch, tuổi, giới, BMI, tăng huyết áp, đái tháo đường.... cùng tác động. Trong ví
+dụ này ta không đề cập các yếu tố di truyền, chủng tộc, giới, mắc bệnh tim mạch... mà chỉ lưu ý đến
+các biến số như: tuổi, cholesterol, glucose, huyết áp tâm thu và BMI tác động lên độ dày NTM.
+Hãy dùng dữ liệu cho trong tệp vidu4_lin_reg.txt (tệp văn bản) để xây dựng mô hình hồi quy tuyến
+tính cho thấy sự phụ thuộc của bề dày lớp NTM theo các biến số khác. Tham khảo phần đọc dữ liệu
+từ tệp văn bản đã có trong ví dụ trước. Các trường dữ liệu gồm:
+
+ID Mã bệnh nhân
+TUOI Tuổi
+BIM chỉ số khối lượng cơ thể (Body Mass Index)
+HA huyến áp tâm thu
+GLUCOSE đường huyết
+CHOLESTEROL độ Cholesterol trong máu
+BEDAYNTM độ dày NTM
+Mô hình cần xây dựng có dạng:
+Bề dày NTM= a0 + a1(tuổi) + a2(cholesterol) + a3(glucose) + a4(huyết áp TT) + a5(BMI)
+
+a) Xác định các hệ số với 100 dữ liệu trên
+b) Chia dữ liệu thành: 80 dòng đầu dùng cho training; 20 dòng sau dùng cho testing. Tính lại các hệ số
+với bộ dữ liệu này, sau đó chạy thử trên bộ dữ liệu test và tính các đại lượng kỳ vọng, phương sai của
+sai số

@@ -1,0 +1,12 @@
+Trong tệp dữ liệu Real_estate.csv đính kèm chứa thông tin các giao dịch mua
+bán bất động sản. Chúng ta có 414 mẫu dữ liệu, mỗi bản ghi có 8 cột theo thứ tự là
+• Cột x1: Số thứ tự (chúng ta sẽ bỏ qua trường này)
+• Cột x2: Ngày giao dịch mua bán (ta chỉ lấy phần nguyên là năm)
+• Cột x3: Tuổi của căn nhà (theo năm)
+• Cột x4: Khoảng cách tới ga MRT (phương tiện công cộng nội đô) gần nhất
+• Cột x5: Số cửa hàng tiện ích gần đó
+• Cột x6: Kinh độ căn nhà; Cột X7: Vĩ độ căn nhà;
+• Cột Y (đầu ra dự báo): Giá của căn nhà
+Hãy chia dữ liệu thành phần training với 350 mẫu đầu tiên, phần validation với số mẫu còn lại. Hãy tham
+khảo các bài trên và xây dựng mô hình hồi quy tuyến tính mô tả sự phụ thuộc của Y vào các cột từ X2 đến
+X6. Sau đó hãy chạy dự đoán cho phần dữ liệu validation và đưa ra tổng bình phương sai số của dự đoán.
